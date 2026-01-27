@@ -1,0 +1,60 @@
+CONTRATO DE COMPRA E VENDA
+IDENTIFICAÇÃO DAS PARTES CONTRATANTES
+
+VENDEDOR:
+Nome completo: EXEMPLO VENDEDOR LTDA. CNPJ: 11.111.111/0001-11
+
+Endereço: N° 000, Rua Exemplo, Bairro Centro, Cidade Exemplo, Estado ES, Brasil.
+
+COMPRADOR(A):
+Nome: {Nome}. CPF: {CPF}. RG: {RG}. 
+
+Endereço: N° {N°}, Rua {Rua}, Bairro {Bairro}, Cidade {Cidade}, Estado {Estado}, País Brasil.
+
+As partes abaixo qualificadas acordam um Contrato de Compra e Venda de Automóvel, regido pelas cláusulas
+e condições descritas neste instrumento particular. Por meio deste instrumento, as partes estabelecem o que segue:
+
+CLÁUSULA 1ª - DO OBJETO: O objeto do presente contrato consiste na transação comercial de compra e venda do veículo {Veículo}, ano {Ano},
+devidamente identificado pela PLACA {Placa do Carro} pelo RENAVAM {Renavam do Carro}.
+
+CLÁUSULA 2ª - DA ENTREGA DE DOCUMENTOS: Constitui obrigação do vendedor a entrega do Documento Único de Transferência (DUT), devidamente assinado
+e com firma reconhecida, ao comprador.
+
+CLÁUSULA 3ª - DA ENTREGA DO AUTOMÓVEL: É de responsabilidade do vendedor entregar o automóvel ao comprador, isento de quaisquer ônus ou encargos.
+
+CLÁUSULA 4ª - DOS IMPOSTOS E TAXAS: Após a assinatura deste instrumento, caberá ao comprador a responsabilidade pelo pagamento dos impostos e
+taxas incidentes sobre o automóvel.
+
+CLÁUSULA 5ª - DO PREÇO: O comprador pagou no veículo {Veículo}, ano {Ano}, {Condição},
+totalizando o valor do veículo R$ {Valor Final}.
+
+CLÁUSULA 6ª - DO ESTADO DO VEÍCULO: O veículo é adquirido no estado em que se encontra, sem qualquer garantia
+implícita ou explícita quanto ao seu estado de conservação ou funcionamento. O presente contrato entra em vigor
+a partir da assinatura das partes envolvidas, estendendo-se aos herdeiros e sucessores das mesmas.
+
+CLÁUSULA 7ª - DA EXCLUSÃO DA GARANTIA: Todos os elementos relacionados ao acabamento do veículo
+(tais como estofamentos, forrações, pintura e para-choques), além da caixa de direção e seus componentes,
+o sistema de ar-condicionado, peças e componentes elétricos, e os pneus, exceto aqueles cuja condição possa ser
+facilmente verificada por um leigo, estão excluídos da garantia. Ademais, o comprador expressamente concorda com o
+atual estado em que se encontra o veículo.
+
+CLÁUSULA 8ª - DA GARANTIA: A loja Exemplo Veículos assume a responsabilidade pelo reparo do veículo, caso ocorra
+algum problema no motor ou na caixa durante um período de 90 dias ou 3 mil quilômetros, contados a partir da
+data de assinatura deste contrato.
+
+CLÁUSULA 9ª - DA INSTALAÇÃO DE KIT GNV: Caso o proprietário decida instalar um kit GNV, fica entendido
+que a garantia mencionada anteriormente é totalmente invalidada para o veículo.
+
+CLÁUSULA 10ª - DA CONFIRMAÇÃO DO CONTRATO: Para que este contrato seja válido, é imprescindível que ambas as
+partes estejam de acordo com os termos e condições financeiras, bem como com a garantia do motor e da caixa pelo
+prazo de 90 dias ou 3 mil quilômetros. Ademais, a quilometragem atual do veículo é de {Km Atual}.
+
+CLÁUSULA 11ª - DA DUPLICIDADE DO CONTRATO: As partes acordam em assinar o presente contrato em duas vias idênticas.
+
+As partes, reconhecendo a equidade das condições aqui estipuladas, firmam o presente instrumento em duas vias de igual
+teor e forma, na cidade de Exemplo {Dia de Venda}.
+
+
+ASSINATURA DO VENDEDOR_________________________________ TELEFONE: +55 (00) 00000-0000.
+
+ASSINATURA DO COMPRADOR________________________________ TELEFONE: +55 {Telefone}.

@@ -1,0 +1,12 @@
+# Dependências do projeto Contrato Veicular
+# Python 3.8+
+
+# Interface gráfica
+customtkinter>=5.2.0
+
+# Geração de PDF
+reportlab>=4.0.0
+PyPDF2>=3.0.0
+
+# Calendário (opcional, mas recomendado)
+tkcalendar>=1.6.1
