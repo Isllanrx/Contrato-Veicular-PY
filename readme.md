@@ -2,91 +2,95 @@
 
 Aplicativo desktop para geração automatizada de contratos de compra e venda de veículos em PDF.
 
-## O que faz
+## Captura de tela
 
-Este aplicativo permite gerar contratos de compra e venda de veículos de forma automatizada, preenchendo um formulário com dados do comprador e do veículo. O sistema:
+![Interface do aplicativo — formulário de dados do comprador e do veículo](Tela_aplicacao.png)
 
-- Coleta dados através de uma interface gráfica moderna
-- Valida todos os campos obrigatórios
-- Formata automaticamente CPF, telefone e valores monetários
-- Gera um arquivo PDF **protegido** por senha
-- Utiliza um **template** de contrato personalizável
+## Visão geral
 
-## Bibliotecas Utilizadas
+O sistema coleta dados por meio de uma interface gráfica, valida campos obrigatórios, aplica formatação (CPF, telefone, valores) e gera um PDF a partir de um template, com opção de proteção por senha.
 
-- **customtkinter** (>=5.2.0): Interface gráfica moderna e responsiva
-- **reportlab** (>=4.0.0): Geração de arquivos PDF
-- **PyPDF2** (>=3.0.0): Proteção de PDF com senha
-- **tkcalendar** (>=1.6.1): Widget de calendário para seleção de datas
+## Funcionalidades
 
-## Requisitos
+- Formulário com interface gráfica (CustomTkinter)
+- Validação de campos obrigatórios
+- Formatação automática de CPF, telefone e valores monetários
+- Geração de PDF protegido por senha
+- Uso de template de contrato personalizável
+
+## Stack tecnológica
+
+| Componente   | Biblioteca    | Versão mínima |
+|-------------|---------------|---------------|
+| Interface   | customtkinter | >= 5.2.0      |
+| PDF         | reportlab     | >= 4.0.0      |
+| PDF (senha) | PyPDF2        | >= 3.0.0      |
+| Datas       | tkcalendar    | >= 1.6.1      |
+
+## Pré-requisitos
 
 - Python 3.8 ou superior
-- Gerenciador de pacotes: `uv` (recomendado) ou `pip`
+- Ambiente com suporte a Tkinter (incluído na maioria das instalações oficiais do Python no Windows)
 
 ## Instalação
 
-### Opção 1: Usando uv (Recomendado)
+### Com uv (recomendado)
 
-1. Instale o uv (se ainda não tiver):
-
-```bash
-pip install uv
-```
-
-1. Clone o repositório ou navegue até o diretório do projeto
-
-1. Crie o ambiente virtual:
-
-```bash
-uv venv
-```
-
-1. Ative o ambiente virtual:
-   - Windows (PowerShell): `.venv\Scripts\Activate.ps1`
-   - Windows (CMD): `.venv\Scripts\activate.bat`
-   - Linux/Mac: `source .venv/bin/activate`
-
-1. Sincronize e instale as dependências:
+Na raiz do repositório:
 
 ```bash
 uv sync
-uv pip install -e .
 ```
 
-1. Instale as dependências:
+Isso cria o ambiente virtual em `.venv` e instala o projeto e as dependências declaradas em `pyproject.toml`.
+
+### Com pip
+
+```bash
+python -m venv .venv
+```
+
+Ative o ambiente virtual (Windows PowerShell: `.venv\Scripts\Activate.ps1`) e execute:
+
+```bash
+pip install -e .
+```
+
+Alternativa equivalente às dependências listadas:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Como Usar
+## Execução
 
-### Executar a aplicação
-
-Após instalar as dependências, você pode executar de três formas:
-
-#### Opção 1: Executar diretamente o main.py (mais simples)
+Com `uv`, na raiz do projeto:
 
 ```bash
-python src/contrato_veicular/main.py
+uv run contrato
 ```
 
-#### Opção 2: Como módulo Python
+Com o ambiente ativado e o pacote instalado em modo editável:
 
 ```bash
 python -m contrato_veicular.main
 ```
 
-### Arquitetura
+Também é possível executar diretamente:
 
-- **Domain**: Independente de frameworks, contém regras de negócio puras
-- **Application**: Orquestra casos de uso, coordena as camadas
-- **Infrastructure**: Implementa detalhes técnicos (UI, PDF, sistema de arquivos)
+```bash
+python src/contrato_veicular/main.py
+```
 
-### Configuração do Ambiente de Desenvolvimento
+## Arquitetura do código
 
-1. Clone o repositório:
+Estrutura em camadas sob `src/contrato_veicular/`:
+
+- **Domain**: regras de negócio, entidades, validadores e formatadores (sem dependência de UI ou PDF)
+- **Application**: casos de uso que orquestram validação e geração do contrato
+- **Infrastructure**: PDF, carregamento de templates, componentes de interface e utilitários de UI
+
+## Repositório
 
 ```bash
 git clone https://github.com/Isllanrx/Contrato-Veicular-PY.git
@@ -95,11 +99,11 @@ cd Contrato-Veicular-PY
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE).
 
-## Desenvolvedor
+## Autor
 
-Desenvolvido por **Isllan Toso Pereira**
+**Isllan Toso Pereira**
 
 - GitHub: [Isllanrx](https://github.com/Isllanrx)
 - LinkedIn: [Isllan Toso](https://br.linkedin.com/in/isllantoso)
